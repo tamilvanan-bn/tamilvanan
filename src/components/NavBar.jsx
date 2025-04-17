@@ -22,6 +22,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn profile"
+          title="LinkedIn"
         >
           <FaLinkedin />
         </a>
@@ -30,6 +31,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub profile"
+          title="GitHub"
         >
           <FaGithub />
         </a>
@@ -38,6 +40,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Discord profile"
+          title="Discord"
         >
           <FaDiscord />
         </a>
@@ -45,7 +48,8 @@ const NavBar = () => {
           href="https://leetcode.com/u/tamilvanan-b/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn profile"
+          aria-label="LeetCode profile"
+          title="LeetCode"
         >
           <FaCode />
         </a>
