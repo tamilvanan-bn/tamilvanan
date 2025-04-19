@@ -7,13 +7,7 @@ const NavBar = () => {
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
-          <img
-            src={logo}
-            className="mx-0"
-            width={150}
-            height={150}
-            alt="logo"
-          />
+          <img src={logo} className="mx-0" width={30} height={30} alt="logo" />
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
